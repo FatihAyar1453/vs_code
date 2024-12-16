@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(istenen\ arka\ plan.jpg) ;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.engenel{
+    width: 800px;
+    padding: 50px; 
+    text-align: center;
+    background-image:url(arkaplan.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    overflow: visible;
+
+/*tasma gıbı bır sorun olursa overflow:hidden kullan*/
+
+}
+.engenel h1{
+    font-size: 57px; 
+    color: gold;
+}
+.engenel input{
+  display: block;
+    width: 100%;
+    padding: 0 16;
+    height: 60px;
+   text-align: center;
+    box-sizing: border-box;
+    border: none;
+
+}
+ 
+.txt{
+    margin: 20px 0;
+    border-radius:  17px; 
+  
+}
+
+.butonozel{
+margin-top:80px ;
+border-radius: 80px; 
+background-color: darkolivegreen;
+color: black;
+cursor: pointer;
+transition: 0.8s;
+display: block;
+}
+.butonozel:hover{
+    transform: scale(0.96);
+    background: #fff;
+    color: black;
+
+
+}
+/* Genel body ayarları */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* Login formu stilini ayarlıyoruz */
+.login-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #45a049;
+}
+
+/* Sosyal medya ikonlarının stilini ayarlıyoruz */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icon {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #007bff;
+}
+
+/* İkon renkleri */
+.social-icon i {
+  transition: color 0.3s;
+}
+
+.social-icon:hover i {
+  color: #007bff;
+}
